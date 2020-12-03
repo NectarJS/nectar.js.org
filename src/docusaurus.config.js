@@ -1,18 +1,18 @@
 module.exports = {
-  title: 'My Site',
-  tagline: 'The tagline of my site',
+  title: 'NectarJS',
+  tagline: 'JavaScript native compiler. No bytecode no VM, just pure native binaries.',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'NectarJS', // Usually your GitHub org/user name.
+  projectName: 'nectarjs', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'NectarJS',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'NectarJS Logo',
         src: 'img/logo.svg',
       },
       items: [
@@ -24,7 +24,7 @@ module.exports = {
         },
         {to: 'blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/NectarJS/nectarjs',
           label: 'GitHub',
           position: 'right',
         },
@@ -51,15 +51,11 @@ module.exports = {
           items: [
             {
               label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              href: 'https://stackoverflow.com/questions/tagged/nectarjs',
             },
             {
               label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              href: 'https://discord.gg/xfHjJyNKtV',
             },
           ],
         },
@@ -72,7 +68,7 @@ module.exports = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/NectarJS/nectarjs',
             },
           ],
         },
@@ -88,13 +84,13 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+            'https://github.com/NectarJS/nectar.js.org/edit/main/src/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+            'https://github.com/NectarJS/nectar.js.org/edit/main/src/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
