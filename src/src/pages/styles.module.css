@@ -10,6 +10,11 @@
   text-align: center;
   position: relative;
   overflow: hidden;
+  color: black;
+}
+
+.container {
+  z-index: 2;
 }
 
 @media screen and (max-width: 966px) {
@@ -34,4 +39,14 @@
 .featureImage {
   height: 200px;
   width: 200px;
+}
+
+.heroBG {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: url(/static/img/logo.svg) no-repeat center center;
+  opacity: 0.3;
 }
