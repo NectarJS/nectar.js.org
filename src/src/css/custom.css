@@ -7,13 +7,20 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #e6d48a;
-  --ifm-color-primary-dark: #cfbf7c;
-  --ifm-color-primary-darker: #b8aa6e;
-  --ifm-color-primary-darkest: #a19461;
-  --ifm-color-primary-light: #e6d48a;
-  --ifm-color-primary-lighter: #e9d896;
-  --ifm-color-primary-lightest: #ebdda1;
+  --ifm-color-primary: #e10c42;
+  --ifm-color-primary-dark: #cb0b3b;
+  --ifm-color-primary-darker: #b40a35;
+  --ifm-color-primary-darkest: #9e082e;
+  --ifm-color-primary-light: #e42455;
+  --ifm-color-primary-lighter: #e73d68;
+  --ifm-color-primary-lightest: #ea557b;
+  /* --ifm-color-primary: #f79604;
+  --ifm-color-primary-dark: #de8704;
+  --ifm-color-primary-darker: #c67803;
+  --ifm-color-primary-darkest: #ad6903;
+  --ifm-color-primary-light: #f8a11d;
+  --ifm-color-primary-lighter: #f9ab36;
+  --ifm-color-primary-lightest: #f9b64f; */
   --ifm-code-font-size: 95%;
 }
 
@@ -22,4 +29,13 @@
   display: block;
   margin: 0 calc(-1 * var(--ifm-pre-padding));
   padding: 0 var(--ifm-pre-padding);
+}
+
+/*
+* Add a background to the logo to keep it visible in dark mode.
+*/
+.navbar__logo {
+  background-color: white;
+  padding: 1px;
+  border-radius: 15%;
 }
