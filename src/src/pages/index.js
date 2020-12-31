@@ -30,7 +30,7 @@ const features = [
     ),
   },
   {
-    title: "Supports various platforms and lanaguages",
+    title: "Supports various platforms and languages",
     imageUrl: "img/platforms.svg",
     description: (
       <>
